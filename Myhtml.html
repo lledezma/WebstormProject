@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Myhtml</title>
+
+</head>
+<body onLoad="alert('website has loaded')">
+
+<script type="text/javascript">
+ //ALL CODING IS DONE IN HERE
+//https://www.youtube.com/watch?v=yUyJ1gcaraM&index=2&list=PL46F0A159EC02DF82
+
+         var l = 5;
+         var w = 10;
+         var name = "text";
+         var nada = "says, \"loding \" ";
+
+         document.write(nada);
+         document.write("<br />"); //jump new line
+         document.write("loading");
+         document.write("<br />");
+
+function funky()
+{
+    alert("Virus")
+}
+
+function meatball(x)
+{
+    alert("" + x);
+}
+
+function NN(l,w)
+{
+    area = l*w;
+    return(area);
+}
+
+ document.write("total are =  " + NN(l,w));
+ document.write("<br />");
+
+for(x =0;x<10;x++)
+{
+    document.write("Testing for loop");
+    document.write("<br />");
+}
+
+//ALL CODING IS DONE IN HERE
+</script>
+
+
+            <form>
+                    <input type="button" value="Alert" onclick="funky()">
+            </form>
+
+            <form>
+                <input type="button" value="touch" onclick="alert('Virus');alert('another virus');"/>
+            </form>
+
+</body>
+</html>
